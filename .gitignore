@@ -61,9 +61,11 @@ env/
 
 # Scan results
 *.json
-*.txt
 scan_results/
 output/
+
+# Exclude requirements.txt from being ignored
+!requirements.txt
 
 # Logs
 *.log
