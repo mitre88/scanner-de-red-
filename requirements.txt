@@ -1,0 +1,12 @@
+# Network Scanner - Requirements
+#
+# This project intentionally uses only the Python standard library
+# for core functionality to minimize dependencies and improve security.
+#
+# The only optional dependency is pytest for running unit tests.
+
+# Optional: For running tests
+pytest>=7.4.0
+
+# Optional: For test coverage reports
+pytest-cov>=4.1.0
